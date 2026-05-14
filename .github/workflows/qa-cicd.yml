@@ -2,7 +2,7 @@ name: Enterprise DevSecOps CICD Pipeline
 on:
   push:
     branches:
-      - qa
+      - feature/feedback_page
     paths:
       - client/**
       - server/**
