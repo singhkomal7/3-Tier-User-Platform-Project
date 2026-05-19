@@ -148,6 +148,11 @@ dist
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
 
-.json*
-.yaml*
-aws/
+# Root-level ignored configuration files
+/*.json
+/*.yaml
+/*.yml
+
+# Root-level AWS configuration directory
+/aws/
+/mainfests/
