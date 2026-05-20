@@ -22,7 +22,7 @@ spec:
            - containerPort: 5000
           env:
           - name: DB_HOST
-              value: mysql
+            value: mysql
           - name: DB_NAME
               valueFrom:
                secretKeyRef:
