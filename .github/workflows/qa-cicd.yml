@@ -493,7 +493,7 @@ jobs:
       - name: Checkout qa branch
         uses: actions/checkout@v4
         with:
-          ref: qa
+          ref: feature/feedback_page
       - name: Update image tag in manifest
         run: |
           sed -i "s|image: singhkomal/nodejs-app:.*|image: singhkomal/nodejs-app:${GITHUB_SHA}|g" k8-manifests/qa/app-deployment.yaml
